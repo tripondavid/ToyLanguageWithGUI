@@ -1,0 +1,342 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int a;(a=2+3*5;(int b;(b=a-4/2+7;print(b)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=2+3*5;(int b;(b=a-4/2+7;print(b)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=2+3*5;(int b;(b=a-4/2+7;print(b)))), int a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=2+3*5;(int b;(b=a-4/2+7;print(b))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=2+3*5;(int b;(b=a-4/2+7;print(b))))]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(b=a-4/2+7;print(b))), a=2+3*5]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(b=a-4/2+7;print(b))), a=2+3*5]
+----------
+* symbolTable: 
+{a=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(b=a-4/2+7;print(b)))]
+----------
+* symbolTable: 
+{a=17}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int b;(b=a-4/2+7;print(b)))]
+----------
+* symbolTable: 
+{a=17}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=a-4/2+7;print(b)), int b]
+----------
+* symbolTable: 
+{a=17}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=a-4/2+7;print(b)), int b]
+----------
+* symbolTable: 
+{a=17}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=a-4/2+7;print(b))]
+----------
+* symbolTable: 
+{a=17, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(b=a-4/2+7;print(b))]
+----------
+* symbolTable: 
+{a=17, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(b), b=a-4/2+7]
+----------
+* symbolTable: 
+{a=17, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(b), b=a-4/2+7]
+----------
+* symbolTable: 
+{a=17, b=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(b)]
+----------
+* symbolTable: 
+{a=17, b=22}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(b)]
+----------
+* symbolTable: 
+{a=17, b=22}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=17, b=22}
+----------
+* out: [22]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+

@@ -1,0 +1,3420 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(bool a;(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v)))), bool a]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(a=false;(int v;((if(a) then(v=2) else(v=3));print(v))))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v))), a=false]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;((if(a) then(v=2) else(v=3));print(v)))]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v)), int v]
+----------
+* symbolTable: 
+{a=false}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((if(a) then(v=2) else(v=3));print(v))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), (if(a) then(v=2) else(v=3))]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v), v=3]
+----------
+* symbolTable: 
+{a=false, v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v)]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{a=false, v=3}
+----------
+* out: [3]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+

@@ -1,0 +1,2964 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))), int x]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))), int x]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))))]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))))]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))), new(v1,20)]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))), new(v1,20)]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))), Ref(int) v2]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))), Ref(int) v2]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))), new(v2,30)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))), new(v2,30)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))), newLock(x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))), newLock(x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))), fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))), fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2))), fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))), fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2))), fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))), fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2)), print(readHeap(v1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x)), fork(writeHeap(v2, readHeap(v2)+1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2)), print(readHeap(v1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x)), fork(writeHeap(v2, readHeap(v2)+1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x), writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)-1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x), writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)-1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))), int x]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))), int x]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))))]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v1;(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))))]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))), Ref(int) v1]
+----------
+* symbolTable: 
+{x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v1,20);(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))), new(v1,20)]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))), new(v1,20)]
+----------
+* symbolTable: 
+{x=0, v1=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(Ref(int) v2;(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))), Ref(int) v2]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))), Ref(int) v2]
+----------
+* symbolTable: 
+{x=0, v1=(1, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(new(v2,30);(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))), new(v2,30)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))), new(v2,30)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(0, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(newLock(x);(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))), newLock(x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))), newLock(x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))));(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))), fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2)))), fork((fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))));(print(readHeap(v1));print(readHeap(v2))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))));(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2))), fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))), fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2))), fork((fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x))), fork((lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x))))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(print(readHeap(v1));print(readHeap(v2)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(fork(writeHeap(v2, readHeap(v2)+1));(writeHeap(v2, readHeap(v2)+1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(lock (x);(writeHeap(v1, readHeap(v1)-1);unlock (x)))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2)), print(readHeap(v1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x)), fork(writeHeap(v2, readHeap(v2)+1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2)), print(readHeap(v1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x)), fork(writeHeap(v2, readHeap(v2)+1))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x)), lock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(readHeap(v2))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(writeHeap(v2, readHeap(v2)+1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(writeHeap(v1, readHeap(v1)-1);unlock (x))]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=30}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x), writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)-1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+5
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x), writeHeap(v2, readHeap(v2)+1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x), writeHeap(v1, readHeap(v1)-1)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=31}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[unlock (x)]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{x=0, v1=(1, int), v2=(2, int)}
+----------
+* out: [20, 30]
+----------
+* fileTable={}
+----------
+* heap: {1=20, 2=32}
+----------
+
+

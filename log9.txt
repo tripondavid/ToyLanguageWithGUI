@@ -1,0 +1,3914 @@
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(int x;(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3)), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;repeat((fork((print(v);v=v-1));v=v+1)until v == 3))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[repeat((fork((print(v);v=v-1));v=v+1)until v == 3), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[repeat((fork((print(v);v=v-1));v=v+1)until v == 3), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=-1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=-1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0, 10]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v == 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v == 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v == 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v == 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=-1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=1, x=1, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=1, x=1, y=3}
+----------
+* out: [0, 10]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int v;(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))))))]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))))), int v]
+----------
+* symbolTable: 
+{}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int x;(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))))]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))), int x]
+----------
+* symbolTable: 
+{v=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(int y;(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))))]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))), int y]
+----------
+* symbolTable: 
+{v=0, x=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=0;(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10)))), x=0]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(repeat((fork((print(v);v=v-1));v=v+1)until v != 3);(x=1;(y=3;print(v*10))))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v != 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), repeat((fork((print(v);v=v-1));v=v+1)until v != 3)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v != 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), ((fork((print(v);v=v-1));v=v+1);while(v != 3) { (fork((print(v);v=v-1));v=v+1) })]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: []
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+2
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=-1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, (fork((print(v);v=v-1));v=v+1)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+3
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=0, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1, fork((print(v);v=v-1))]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }, v=v+1]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[(print(v);v=v-1)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10))), while(v != 3) { (fork((print(v);v=v-1));v=v+1) }]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[v=v-1, print(v)]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(x=1;(y=3;print(v*10)))]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[v=v-1]
+----------
+* symbolTable: 
+{v=2, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+4
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=1, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10)), x=1]
+----------
+* symbolTable: 
+{v=3, x=0, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=3, x=1, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[(y=3;print(v*10))]
+----------
+* symbolTable: 
+{v=3, x=1, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=3, x=1, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10), y=3]
+----------
+* symbolTable: 
+{v=3, x=1, y=0}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=3, x=1, y=3}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[print(v*10)]
+----------
+* symbolTable: 
+{v=3, x=1, y=3}
+----------
+* out: [0, 1, 2]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
+>>> ProgramState: 
+----------
+* ID: 
+1
+----------
+* exeStack: 
+[]
+----------
+* symbolTable: 
+{v=3, x=1, y=3}
+----------
+* out: [0, 1, 2, 30]
+----------
+* fileTable={}
+----------
+* heap: {}
+----------
+
+
